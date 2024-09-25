@@ -1,0 +1,202 @@
+<!doctype html>
+<html lang="fr">
+
+<head> <!-- On renseigne ici des information qui ne seront pas affichées à l'écran -->
+  <meta charset="utf-8"> <!-- encodage des caractères -->
+  <title>Site test</title> <!-- Titre de la page qu'affiche l'onglet du navigateur et google -->
+
+  <!-- pour les mobiles -->
+  <meta name="viewport" content="width=device-width,user-scalable=yes,initial-scale=1.0" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap" rel="stylesheet">
+
+
+  <!-- lien vers des feuilles de styles -->
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css\font_liste.css">
+  <link rel="stylesheet" href="css/responsive.css">
+
+  <!-- lien vers un ou plusieurs scripts -->
+  <script src="js\jquery-3.5.1.min.js"></script>
+  <script src="js\projet-script.js"></script>
+</head>
+
+
+
+
+<body> <!-- les éléments contenus dans le body seront affichés -->
+<header>
+  <marquee class="ibm-plex-serif-semibold-italic" behavior="alternate" direction="">Variable Font</marquee>
+  <ul class="ibm-plex-serif-regular-italic">
+    <li id="ouvrieres">Ouvrières</li>
+    <li id="facade">Façade</li>
+    <li id="fungal">Fungal</li>
+    <li id="movement">Movement</li>
+    <li id="recursive">Recursive</li>
+    <li id="bricolage">Bricolage</li>
+    <li id="handjet">Handjet</li>
+    <li id="sixtyhour">sixtyhour</li>
+    <li id="tiny">TINY</li>
+    <li id="mixal">Mixal</li>
+  </ul>
+</header>
+
+  
+
+  <div class="description_conteneur ibm-plex-serif-regular-italic">
+  <p class="description ouvrieres">
+    <u>typographe</u> : Laure Azizi<br>
+    <u>date</u>: 9 mars 2024 <br>
+    <u>fonderie</u> : Velvetyne <br>
+    <u>licence</u> : <a href="https://openfontlicense.org/">SIL Open Font License, Version 1.1</a> <br>
+    <u>Plus d'information</u> : <a href="https://www.velvetyne.fr/fonts/ouvrieres/">https://www.velvetyne.fr/fonts/ouvrieres/</a>
+<br>
+      <label for="frmt">Formation</label>
+      <input type="range" id="frmt" name="frmt" min="100" max="900" />
+      <br><label for="wght">Taille des fourmies</label>
+      <input type="range" id="wght" name="wght" min="100" max="900" />
+    
+  </p>
+
+
+  <p class="description facade">
+    <u>typographe</u> : Éléonore Fines<br>
+    <u>date</u>: 30 novembre 2021 <br>
+    <u>fonderie</u> : Velvetyne <br>
+    <u>licence</u> : <a href="https://openfontlicense.org/">SIL Open Font License, Version 1.1</a> <br>
+    <u>Plus d'information</u> : <a href="https://www.velvetyne.fr/fonts/facade/">https://www.velvetyne.fr/fonts/facade/</a>
+   <br> <label for="ctst">Contraste</label>
+      <input type="range" id="ctst" name="ctst" min="0" max="800" />
+      <br><label for="wght1">graisse</label>
+      <input type="range" id="wght1" name="wght1" min="100" max="900" />
+ </p>
+  
+ <p class="description fungal">
+  <u>typographe</u> : Raphaël Bastide, Jérémy Landes<br>
+  <u>date</u>: 23 novembre 2022 <br>
+  <u>fonderie</u> : Velvetyne <br>
+  <u>licence</u> : <a href="https://openfontlicense.org/">SIL Open Font License, Version 1.1</a> <br>
+  <u>Plus d'information</u> : <a href="https://www.velvetyne.fr/fonts/fungal/">https://www.velvetyne.fr/fonts/fungal/</a>
+  <br> <label for="grow">Croissance</label>
+      <input type="range" id="grow" name="grow" min="0" max="1000" />
+      <br><label for="thck">Graisse</label>
+      <input type="range" id="thck" name="thck" min="100" max="1000" />
+</p>
+
+
+<p class="description movement">
+  <u>typographe</u> : Noel Pretorius, María Ramos<br>
+  <u>date</u>: 2019 <br>
+  <u>fonderie</u> : NM type <br>
+  <u>licence</u> : Creative Commons license CC BY-ND 4.0, which allows you to use
+  the typeface for free, as long as the name of the author is credited
+  and the user does not modify the design in any way.<br>
+  <u>Plus d'information</u> : <a href="https://www.nmtype.com/movement/">https://www.nmtype.com/movement/</a>
+  <br> <label for="SPAC">Arrondie</label>
+      <input type="range" id="SPAC" name="SPAC" min="100" max="120" />
+      <br><label for="wght2">Graisse</label>
+      <input type="range" id="wght2" name="wght2" min="100" max="900" />
+</p>
+
+<p class="description recursive">
+  <u>typographe</u> : <a href="https://github.com/arrowtype/recursive">The Recursive Project Authors</a><br>
+  <u>date</u>: 2020 <br>
+  <u>licence</u> : <a href="https://openfontlicense.org/">SIL Open Font License, Version 1.1</a> <br>
+  <u>Plus d'information</u> : <a href="https://www.recursive.design/">https://www.recursive.design/</a>
+  <br> <label for="mono">Typo chasse fixe ou variable</label>
+      <input type="range" id="mono" name="mono" min="0" max="1" step="0.1" />
+      <br><label for="casl">géométrique ou arrondie</label>
+      <input type="range" id="casl" name="casl" min="0" max="1"  step="0.1" />
+      <br><label for="wght5">Graisse</label>
+      <input type="range" id="wght5" name="wght5" min="300" max="1000" />
+      <br><label for="slnt">Italic</label>
+      <input type="range" id="slnt" name="slnt" min="-15" max="0" />
+</p>
+
+<p class="description bricolage">
+  <u>typographe</u> : Mathieu Triay <br>
+  <u>date</u>: 2023 <br>
+  <u>licence</u> : <a href="https://openfontlicense.org/">SIL Open Font License, Version 1.1</a> <br>
+  <u>Plus d'information</u> : <a href="https://ateliertriay.github.io/bricolage/">https://ateliertriay.github.io/bricolage/</a>
+  <br> <label for="wdth">Arrondie</label>
+      <input type="range" id="wdth" name="wdth" min="75" max="100" />
+      <br><label for="wght3">Graisse</label>
+      <input type="range" id="wght3" name="wght3" min="100" max="900" />
+      <br><label for="opz">Graisse</label>
+      <input type="range" id="opz" name="opz" min="12" max="96" />
+</p>
+
+<p class="description handjet">
+  <u>typographe</u> : 	David Březina <br>
+  <u>date</u>: décembre 2018<br>
+  <u>fonderie</u> : Rosetta Type<br>
+  <u>licence</u> : <a href="https://openfontlicense.org/">SIL Open Font License, Version 1.1</a> <br>
+  <u>Plus d'information</u> : <a href="https://github.com/rosettatype/handjet">https://github.com/rosettatype/handjet</a>
+  <br> <label for="elsh">Motif</label>
+  <input type="range" id="elsh" name="elsh"step="0.01" min="0" max="16" />
+  <br><label for="wght4">Graisse</label>
+  <input type="range" id="wght4" name="wght4" min="100" max="900" />
+  <br><label for="elrg">Grille</label>
+  <input type="range" id="elrg" name="elrg" min="1" max="2" />
+</p>
+
+<p class="description sixtyhour">
+  <u>nom</u> : Homecomputer Fonts (Sixtyfour) <br>
+  <u>typographe</u> : 	Jens Kutílek<br>
+  <u>date</u>: décembre 2019<br>
+  <u>licence</u> : <a href="https://openfontlicense.org/">SIL Open Font License, Version 1.1</a> <br>
+  <u>Plus d'information</u> : <a href="https://github.com/rosettatype/handjet">https://github.com/rosettatype/handjet</a>
+  <br> <label for="scan">Arrondie</label>
+  <input type="range" id="scan" name="scan" min="-53" max="100" />
+  <br><label for="bled">Graisse</label>
+  <input type="range" id="bled" name="bled" min="0" max="100" />
+</p>
+
+
+<p class="description tiny">
+  <u>nom</u> : TYNI <br>
+  <u>typographe</u> : Jack Halten Fahnestock<br>
+  <u>date</u>: avril 2019<br>
+  <u>fonderie</u> : Velvetyne <br>
+  <u>licence</u> : <a href="https://openfontlicense.org/">SIL Open Font License, Version 1.1</a> <br>
+  <u>Plus d'information</u> : <a href="https://velvetyne.fr/fonts/tiny/">https://velvetyne.fr/fonts/tiny/</a>
+  <br> <label for="wght7">Taille des points</label>
+  <input type="range" id="wght7" name="wght7" min="0" max="300" />
+</p>
+
+
+<p class="description mixal">
+  <u>nom</u> : Mixal<br>
+  <u>typographe</u> : Adrien Midzic<br>
+  <u>date</u>: avril 2018<br>
+  <u>fonderie</u> : Font Arena<br>
+  <u>licence</u> : <a href="https://openfontlicense.org/">SIL Open Font License, Version 1.1</a> <br>
+  <u>Plus d'information</u> : <a href="https://fontsarena.com/created-by/adrien-midzic/">https://fontsarena.com/created-by/adrien-midzic/</a>
+  <br> <label for="wght8">Chasse</label>
+  <input type="range" id="wght8" name="wght8" min="100" max="900" />
+</p>
+
+<br> <label for="size">Taille des caractères</label>
+  <input type="range" id="size" name="size" min="1" max="400" />
+</div>
+  <!-- <h2 class="facade">Façade :<br> vieux juge blond qui fume</h2>
+  <h2 class="fungal">Fungal :<br> vieux juge blond qui fume</h2>
+  <h2 class="movement">Movement :<br> vieux juge blond qui fume</h2>
+  <h2 class="recursive">Movement :<br> vieux juge blond qui fume</h2>
+  <h2 class="bricolage">Movement :<br> vieux juge blond qui fume</h2>
+  <h2 class="handjet">Movement :<br> vieux juge blond qui fume</h2>
+  <h2 class="sixtyhour">Movement :<br> vieux juge blond qui fume</h2> -->
+ 
+
+  <div class="ouvrieres demo">
+    <h2 class=""> The five boxing wizards jump quickly </h2>
+    <p>ABCDEFGHIJKMLOPQRSTUVWXYZ <br>
+        abcdefghijklmnopqrstuvwxyz
+    </p>
+  </div>
+ 
+</body>
+</html>
