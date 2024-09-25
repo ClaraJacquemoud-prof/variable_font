@@ -1,0 +1,175 @@
+*{
+  box-sizing: border-box;
+  overflow-wrap : break-word
+}
+body{
+  background-color: black;
+}
+
+.demo{
+  font-size: 5em;
+}
+
+header{
+  border: 1px solid black;
+  width: 100vw;
+  font-size: 18px;
+}
+
+marquee{
+  font-size: 2em;
+  padding: 10px;
+  background-color: white;
+}
+
+header ul{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  row-gap: 20px;
+}
+
+ul{
+  background-color: black;
+  padding: 10px;
+}
+
+header ul li{
+  color: rgb(255, 255, 255);
+  min-width: 80px;
+
+}
+
+header ul li:hover{
+  color: rgb(0, 0, 0);
+  background-color: white;
+}
+
+.description{
+  font-family: 'Times New Roman', Times, serif;
+
+}
+
+.description_conteneur{
+  border: 1px solid black;
+  padding: 20px;
+  top: 200px;
+  background-color: white;
+  font-size: 18px;
+  line-height: 25px;
+}
+input{
+  width: 300px;
+}
+
+.demo{
+  background-color: black;
+  color: white;
+}
+
+/*"FRMT" formation(100-900), "wght" weight(100-900)*/
+.ouvrieres>h2, .ouvrieres>p{
+  font-family: 'OuvrièresGX';
+  font-variation-settings: "FRMT" 900, "wght" 100 ;
+}
+
+/*"wght" weight(100-900), "ctst" contraste(0-800)*/
+.facade>h2, .facade>p{
+  font-family: 'FacadeGX';
+  font-variation-settings: "ctst" 900, "wght" 100 ;
+}
+
+/*"THCK" épaisseur(0-1000), "grow" croissance(0-1000) */
+.fungal>h2, .fungal>p{
+  font-family: 'FungalGX';
+  font-variation-settings: "grow" 900, "THCK" 700 ;
+}
+
+/*"wght" wheight(100-900), "SPAC" rondeur(100-120)*/
+.movement>h2, .movement>p{
+  font-family: 'MovementV';
+  font-variation-settings: "wght" 600, "SPAC" 110 ;
+}
+
+
+
+/* "Mono" : Monospace: Sans (natural-width) or Mono (fixed-width) */
+/* "CASL" : Casual: Linear to Casual */
+/* "wght" : Weight: Light to ExtraBlack; usually set with `font-weight` */
+/* "slnt" : Slant: 0 to -15 degrees, auto cursive at -14 */
+/* "CRSV" : Cursive: always roman, auto substitution, or always cursive */
+.recursive>h2, .recursive>p{
+  font-family: 'recursive';
+  font-variation-settings: "MONO" 0.73, "CASL" 0, "wght" 879.17, "slnt" -13.77, "CRSV" 0 ;
+}
+
+/*"opsz" 96(12-96), "wght" 800(100-800), "wdth" 100(75-100)*/
+
+.bricolage>h2, .bricolage>p{
+  font-family: 'BricolageGrotesque';
+  font-variation-settings: "wght" 50,"wdth" 400,"opsz" 180;
+}
+
+/*"ELSH" : element shape (0-16)*/
+/*"ELGR" : element grid (1-2)*/
+/*"wght" : weight (100-900)*/
+
+.handjet>h2, .handjet>p{
+  font-family: 'handjet';
+  font-variation-settings: "ELGR" 1,"ELSH" 10,"wght" 700;
+}
+
+.sixtyhour>h2, .sixtyhour>p{
+  font-family: 'sixtyhour';
+  font-variation-settings: "SCAN" -31.75, "BLED" 43.07;
+}
+
+.mixal>h2, .mixal>p{
+  font-family: 'mixal';
+  font-variation-settings: "wght" 43;
+}
+
+.tiny>h2, .tiny>p{
+  font-family: 'tiny';
+  font-variation-settings: "wght" 43;
+}
+
+
+
+
+
+.ibm-plex-serif-regular {
+  font-family: "IBM Plex Serif", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.ibm-plex-serif-semibold {
+  font-family: "IBM Plex Serif", system-ui;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.ibm-plex-serif-bold {
+  font-family: "IBM Plex Serif", system-ui;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.ibm-plex-serif-regular-italic {
+  font-family: "IBM Plex Serif", system-ui;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.ibm-plex-serif-semibold-italic {
+  font-family: "IBM Plex Serif", system-ui;
+  font-weight: 600;
+  font-style: italic;
+}
+
+.ibm-plex-serif-bold-italic {
+  font-family: "IBM Plex Serif", system-ui;
+  font-weight: 700;
+  font-style: italic;
+}

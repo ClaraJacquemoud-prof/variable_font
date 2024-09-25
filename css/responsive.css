@@ -1,0 +1,81 @@
+/* Sur les écrans, quand la largeur de la fenêtre fait au minimum 1280px */
+@media screen and (min-width: 1280px){
+
+}
+
+
+/* Sur tous types d'écran, quand la largeur de la fenêtre est comprise entre 800px et 1280px */
+@media all and (min-width: 800px) and (max-width: 1280px){
+  section{
+    height: 400px;
+    width: 100%;
+  }
+
+  .img {
+    max-width: 60vw;
+  }
+
+  .img img{
+    width: 100%;
+    height: auto;
+  }
+
+}
+
+
+/* Sur tous types d'écrans orientés verticalement */
+@media all and (max-width: 800px){
+  header{
+    position: relative;
+    width: 100%;
+    border:0px;
+  }
+
+  main{
+    top : 0px;
+    margin-bottom: 20px;
+  }
+
+  html{
+    border: 0px;
+    font-size: 14px;
+  }
+  section{
+    height: auto;
+    width: 100%;
+    margin-bottom: 20px;
+    border-bottom: var(--taille_bordure) solid var(--couleur2);
+  }
+
+  .direction_normale >  aside{
+    border-left: 0px;
+    border-right: 0px;
+  }
+
+  .direction_inverse >  aside{
+    border-left: 0px;
+    border-right: 0px;
+  }
+
+  .img, img{
+    width: 100%;
+  }
+
+  .direction_normale{
+    flex-direction: column;
+
+  }
+
+  .direction_inverse{
+    flex-direction: column;
+  }
+
+  #mobile{
+    display: flex;
+  }
+
+  #web{
+    display: none;
+  }
+
+}
